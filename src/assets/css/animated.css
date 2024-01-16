@@ -1,0 +1,159 @@
+.animated-element-right-first {
+    animation: slideFromRight 2s ease-in-out;
+  }
+  
+  .animated-element-right-second {
+    animation: slideFromRight 3s ease-in-out;
+  }
+  
+  .animated-element-left {
+    animation: slideFromleft 3s ease-in-out;
+  }
+  
+  .animated-element-subHeadings {
+    animation: subHeadings 1s ease-in-out;
+  }
+  
+  .animated-element-growth {
+    animation: growth 3s ease-in-out;
+  }
+  
+  .animated-element-partner {
+    animation: partner 4s ease-in-out;
+  }
+  
+  .animated-element-buttons {
+    animation: partner 5s ease-in-out;
+  }
+  
+  .animated-element-leftline {
+    animation: leftLine 1s ease-in-out;
+  }
+  
+  .animated-element-lefSubheading {
+    animation: leftSubheading 3s ease-in-out;
+  }
+  .section-img-bg {
+    animation: section-img-bg 4s ease-in-out;
+  }
+  .section-img{
+    animation: section-img 3s ease-in-out;
+  }
+  
+  @keyframes slideFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideFromleft {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes subHeadings {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 10;
+    }
+  }
+  
+  @keyframes growth {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 10;
+    }
+  }
+  
+  @keyframes partner {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 10;
+    }
+  }
+  
+  @keyframes buttons {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 10;
+    }
+  }
+  
+  @keyframes leftLine {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes leftSubheading {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes section-img-bg {
+    from {
+      transform: rotate(360deg);
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes section-img {
+    from {
+      transform: rotate(360deg);
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
