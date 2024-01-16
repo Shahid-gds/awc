@@ -36,9 +36,10 @@
             Annoyed with spam calls and last min excuses from agencies?</div>
         </div>
       </div>
+    <form @submit.prevent="submitForm">
       <div class="sm:flex justify-center container mx-auto xl:px-[10rem] px-6">
         <div class="w-full">
-          <form @submit.prevent="submitForm">
+          <div>
             <div class="lg:flex lg:space-x-6 pb-4 inputs">
             <div class="w-full pb-4">
               <input class="w-full rounded-xl placeholder-[#5d5d5d] text-white border-2 p-4 px-8  border-[#404141]"
@@ -72,7 +73,7 @@
               name="" id="" cols="" rows="5" placeholder="Type Your Message Here..."
               v-model="formData.message"></textarea>
           </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="lg:block hidden">
@@ -87,7 +88,7 @@
                 you are looking for.</span>
             </div>
             <div class="lg:w-full">
-              <button type="submit" :disabled="loading" @click="submitForm"
+              <button type="submit" :disabled="loading"
                 class="hover-btn bg-gradient-to-r 2xl:w-[290px] xl:w-[240px] w-[260px] text-center from-[#9d0208] bg-[#601417] border-r-[#601417] p-4 rounded-lg text-[white] font-bold cursor-pointer hover:bg-gradient-to-l hover:from-[#9d0208] hover:bg-[#601417] hover:border-r-[#601417]">
                 <div class="uppercase">
                   {{ loading ? 'Sending...' : 'Request Free Estimate' }}
@@ -100,7 +101,7 @@
       <div class="lg:hidden">
         <div class="lg:flex py-6">
           <div class="lg:w-full flex justify-center">
-            <button type="submit" :disabled="loading" @click="submitForm"
+            <button type="submit" :disabled="loading"
               class="hover-btn bg-gradient-to-r w-[250px] text-center from-[#9d0208] bg-[#601417] border-r-[#601417] p-4 rounded-lg text-[white] sm:font-bold cursor-pointer hover:bg-gradient-to-l hover:from-[#9d0208] hover:bg-[#601417] hover:border-r-[#601417]">
               <div class="uppercase">
                 {{ loading ? 'Sending...' : 'Request Free Estimate' }}
@@ -120,6 +121,7 @@
           </div>
         </div>
       </div>
+    </form>
     </div>
   </section>
 </template>
