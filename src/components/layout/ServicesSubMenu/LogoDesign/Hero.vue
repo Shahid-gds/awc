@@ -29,9 +29,9 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    We offer logo design services to companies worldwide who are looking for a custom logo design that
-                    reflects their brand value and communicates their vision. A logo is the first priority of a business -
-                    whether it's a startup or corporation, an elegant logo helps attract your target audience.
+                    We offer high quality, affordable, custom logo design service in all USA since 2019. All our designs are
+                    100% custom to truly reflect your brand and communicates their vision. Grow your business with a
+                    professional, custom logo designed by our creative experts. Because good design makes great business.
                 </p>
             </div>
         </div>

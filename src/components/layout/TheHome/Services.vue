@@ -1,8 +1,8 @@
 <template>
-      <section class="bg sm:py-[5rem] py-[3rem]">
-        <!-- This is for  Services Section -->
-      <div class="w-full">
-        <div class="sm:flex">
+  <section class="bg sm:py-[5rem] py-[3rem]">
+    <!-- This is for  Services Section -->
+    <div class="w-full">
+      <div class="sm:flex">
         <div class="w-full">
           <div class="">
             <div class="text-center">
@@ -19,23 +19,21 @@
           </div>
           <div class=" bg-[#9d0208] w-[50%] h-1 sm:mt-3 mt-1 animated-element-leftline"></div>
         </div>
-        </div>
-          <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1">
-            <p class="2xl:w-1/2 md:w-[70%] w-[90%]">
-              Our Digital Services are not limited to but expanded throughout the digital
-              forms - from website development to corporate branding - we offer you a one window solution.
-            </p>
-          </div>
-          <div>
-            <ServicesCarousel />
-          </div>
-        </div>
-      </section>
+      </div>
+      <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1">
+        <p class="2xl:w-1/2 md:w-[70%] w-[90%]">
+          From ideation to execution, unlock a cohesive strategy with a one stop agency for all your digital marketing
+          needs - from website development to corporate branding.
+        </p>
+      </div>
+      <div>
+        <ServicesCarousel />
+      </div>
+    </div>
+  </section>
 </template>
 <script setup>
 import ServicesCarousel from '../UI/ServicesCarousel.vue';
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -25,12 +25,12 @@
        </div>
        <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-2 pb-10">
          <div class="px-6 text-[#dcdcdc] sm:block hidden">
-           <div class="sm:text-xl">Tried of seeing everyone <span class="text-white font-bold">forcefully</span> sell <span class="text-white font-bold">themselves to your?</span></div>
-           <div class="sm:text-xl">Annoyed with spam calls and last min <span class="text-white font-bold">excuses from agencies?</span></div>
+           <div class="sm:text-xl">Tell us about your business and your <span class="text-white font-bold">digital marketing</span> needs.</div>
+           <div class="sm:text-xl">Let's talk solutions and grow something <span class="text-white font-bold">awesome together.</span></div>
          </div>
          <div class="px-6 sm:hidden">
-           <div class="sm:text-xl">Tried of seeing everyone forcefully sell themselves to your?
-           Annoyed with spam calls and last min excuses from agencies?</div>
+           <div class="sm:text-xl">Tell us about your business and your digital marketing needs.
+            Let's talk solutions and grow something awesome together.</div>
          </div>
        </div>
      <form @submit.prevent="submitForm">

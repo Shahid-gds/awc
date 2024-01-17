@@ -22,25 +22,21 @@
           </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1.5">
               <p class="2xl:w-1/2 md:w-[70%] w-[90%]">
-                We’re a digital growth agency whose job is to give our clients the ultimate satisfaction for all their
-                needs and to help them grow and reach new heights.
+                Choosing American Web Craft means more than hiring a digital marketing service. Your company is gaining a dedicated partner committed to your business growth and success.
               </p>
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white py-3">
               <p class="2xl:w-1/2 md:w-[70%] w-[90%]">
-                American Web Craft has been working and dominating the digital industry for 5 years and has a brilliant track
-                record to show for it. The company aims to provide a single one-window solution to all its customers so that
-                they don’t have to hire multiple agencies or employees when all of their work can be done from one place.
-                Providing solutions that are practical, feasible and effective, is the motto of Digital Key.
+                American Web Craft has been working at the forefront of the digital landscape since 2019. We take pride in assisting numerous companies across diverse sectors in achieving their objectives. Our goal is to be a one-stop agency for all the digital needs of our clients, eliminating the need to hire multiple agencies or employees. Our 360-degree digital marketing solutions provide tailored options that are practical, flexible, and effective, capturing the essence of Digital Key.
               </p>
             </div>
             <div class="flex items-center py-10 justify-center md:space-x-5 space-x-3 animated-element-buttons w-full">
-              <div>
+              <router-link :to="{name: 'About'}">
                 <div
                   class="hover-btn bg-gradient-to-r lg:text-lg text-[14px] from-[#9d0208] bg-[#601417]  rounded-lg p-3 uppercase cursor-pointer text-white md:px-10 sm:font-bold hover:bg-gradient-to-l hover:from-[#9d0208] hover:bg-[#601417]">
-                  Our Services
+                  About Us
                 </div>
-              </div>
+              </router-link>
               <div>
                 <div
                   class="get-btn border-2 lg:text-lg text-[14px] border-white rounded-lg p-2 uppercase cursor-pointer text-white md:px-10 sm:font-bold hover:border-[#9d0208]" @click="openModal">

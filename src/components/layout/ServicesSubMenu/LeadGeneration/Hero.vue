@@ -29,9 +29,8 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    We are pioneers in multichannel lead generation campaigns to provide your business with potential leads
-                    -
-                    growing your business reach and overall market share.
+                    We specialize in tailored lead generation, ensuring a steady flow of high-quality leads with improved
+                    conversion rates. Our focus is on engagement, connecting you with eager leads for standout offerings.
                 </p>
             </div>
         </div>

@@ -17,7 +17,7 @@
                             </h2>
                             <h2
                                 class="others-text text-white 2xl:text-[25px] md:text-[22px] font-bold text-[15px] px-6 uppercase animated-element-right-second">
-                                <span>anytime from anywhere in </span> <span class="text-[#9d0208] font-bold">the World!</span>
+                                <span>BESPOKE DIGITAL </span> <span class="text-[#9d0208] font-bold">MARKETING SOLUTIONS</span>
                             </h2>
                         </div>
                     </div>

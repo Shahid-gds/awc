@@ -54,19 +54,19 @@ const slidesSecondCarousel = ref([
   {
     id: '1',
     title: 'Corporate Branding',
-    content: 'Here’s a collection of some of the brilliant work that we have done over the years.',
+    content: 'We create market-proven design masterpieces, crafted in a style that resonates with your business unique personality.',
     image: import('@/assets/images/Home/ourWorkimg/CorporateBranding.svg').then((module) => module.default),
   },
   {
     id: '2',
     title: 'Logo Design',
-    content: 'Here’s a collection of some of the brilliant work that we have done over the years.',
+    content: 'Transforming ideas into iconic symbols, our logo designs capture innovation, uniqueness, and strategic visual storytelling effortlessly.',
     image: import('@/assets/images/Home/ourWorkimg/LogoDesign.svg').then((module) => module.default),
   },
   {
     id: '3',
     title: 'Web Design',
-    content: 'Here’s a collection of some of the brilliant work that we have done over the years. ',
+    content: 'Creating responsive and mobile-friendly websites, we foster a user-friendly design to improve the overall UI & UX experience.',
     image: import('@/assets/images/Home/ourWorkimg/WebDesign.svg').then((module) => module.default),
   },
 ]);

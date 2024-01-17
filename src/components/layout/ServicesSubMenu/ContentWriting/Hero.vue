@@ -29,9 +29,8 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    Feed your online presence with high-quality content. At American Web Craft, we provide 360 content
-                    writing solutions, our
-                    content writing services are open for marketers, brands, and digital marketing agencies.
+                    Whatever industry you’re in, you need expert writers who can engage your audience, American Web Craft
+                    provide 360 content writing solution, our services are open for marketers, brands and digital agencies.
                 </p>
             </div>
         </div>

@@ -3,7 +3,7 @@
     <Carousel class="2xl:w-[90%] w-full bg-transparent" :autoplay="2000" :wrap-around="true" :breakpoints="breakpoints"
       v-model="activeSlideIndex">
       <Slide class="" v-for="slide in slides" :key="slide">
-        <div class="carousel__item text-white m-2 py-16">
+        <div class="carousel__item text-white m-2 py-16 sm:h-[32rem] h-[40rem]">
            <div class="cursor-pointer text-left relative top-5 bg-gradient-to-b sm:px-10 px-6 from-[#361416] rounded-xl border-b-[#361416]">
           <div class="">
             <div class="w-full flex justify-center img-index">
@@ -100,21 +100,39 @@ const navigate = (direction) => {
 const slides = ref([
   {
     id: '1',
-    title: 'Jane Dean',
-    content: 'At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly web designs tailored to customers requirements. Through responsive web designs, we help businesses...experience a bug-free website to ensure a maximum conversion rate throughout.',
+    title: 'Kevin Burns',
+    content: 'American Webcrafts-true business leaders, visionaries and experts. They took the time to understand our strategy & business goals. They redesigned our website, wrote content & launched the SEO program.',
     image: import('@/assets/images/Home/testimonial/LogoOne.svg').then((module) => module.default),
   },
   {
     id: '2',
-    title: 'Logan Sparks',
-    content: 'At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly web designs tailored to customers requirements. Through responsive web designs, we help businesses...experience a bug-free website to ensure a maximum conversion rate throughout.',
+    title: 'Steven Taylor',
+    content: 'Proved to be an invaluable resource. From the conception of an idea through implementation, American Webcrafts wes there to ensure the final matched our vision. They take the learn their clients business inside and out.',
     image: import('@/assets/images/Home/testimonial/LogoTwo.svg').then((module) => module.default),
   },
   {
     id: '3',
-    title: 'Julia Roberts',
-    content: 'At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly web designs tailored to customers requirements. Through responsive web designs, we help businesses...experience a bug-free website to ensure a maximum conversion rate throughout.',
+    title: 'Ross Petersen',
+    content: 'We engaged with American Webcraft because they seemed like they would be a good partner for our business and from a cost perspective they were on the lower end of other companies we spoke to. We found that the cost was not a reflection of the level of service or the value, as we’ve grown our PPC account with them.',
     image: import('@/assets/images/Home/testimonial/LogoThree.svg').then((module) => module.default),
+  },
+  {
+    id: '4',
+    title: 'Micheal West',
+    content: 'We’ve been very pleased with the apps that American Webcraft has developed. Historically, we’ve kept all development in-house, but on a whim we decided to give American Webcraft a chance. The first few apps the developed were very solid. Production time was fast and the final apps are very stable. We’ve now decided to expand the line of apps that we’ll have them build for us.',
+    image: import('@/assets/images/Home/testimonial/LogoFour.png').then((module) => module.default),
+  },
+  {
+    id: '5',
+    title: 'Cheryl Morgan',
+    content: 'The American Webcraft Design team were excellent! We couldn"t be happier with the finished product. They were very professional, prompt, understanding and full of creative and clever ways to make our branding and website stand out. Highly recommend.',
+    image: import('@/assets/images/Home/testimonial/LogoFive.png').then((module) => module.default),
+  },
+  {
+    id: '6',
+    title: 'Scott Murray',
+    content: 'Absolutely knocked out my logo, first go, no revisions needed!Looking forward to working together again with American Webcraft.',
+    image: import('@/assets/images/Home/testimonial/LogoSix.png').then((module) => module.default),
   },
 
 

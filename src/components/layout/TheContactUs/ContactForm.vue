@@ -25,10 +25,9 @@
       </div>
       <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1 sm:pb-16 pb-8">
         <div class="px-6 text-[#dcdcdc] sm:block hidden">
-          <div class="sm:text-xl">Fill out the form <span class="text-white font-bold">below for a fruitful
-              collaboration,</span> and to accomplish your <span class="text-white font-bold">dreams and goals</span>
+          <div class="sm:text-xl">Tell us about your business and your <span class="text-white font-bold">digital marketing needs.</span>
           </div>
-          <div class="sm:text-xl">One of exports will <span class="text-white font-bold">get in touch</span> with you soon
+          <div class="sm:text-xl">Let's talk solutions and grow something <span class="text-white font-bold">awesome together.</span>
           </div>
         </div>
         <div class="px-6 sm:hidden">

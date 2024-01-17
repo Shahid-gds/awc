@@ -71,10 +71,9 @@
     </div>
     <div class="md:flex justify-end w-full md:-mt-10 mt-10">
       <div class="2xl:w-full w-1/2"></div>
-      <div class="md:flex 2xl:w-[60%] w-full items-center space-x-3">
+      <div class="md:flex w-full items-center space-x-3">
         <div class="md:w-full px-6 text-[#a9a9a9] md:text-right text-center">
-          <p>Website development to corporate branding
-            we offer you a one window solution.</p>
+          <p>Website development to corporate branding. The digital agency that feels like an in-house partner.</p>
         </div>
         <div class="md:w-full h-1 mt-3 bg-[#9d0208] animated-element-right-second"></div>
       </div>
@@ -156,7 +155,7 @@ const slides = ref([
     id: '1',
     title: 'Logo',
     secondtitle: 'Designs',
-    content: 'At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly web designs tailored to customers requirements.',
+    content: 'We offer high quality, affordable, custom logo design service in all USA since 2019. All our designs are 100% custom to truly reflect your brand and communicates their vision.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/LogoDesign.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -166,7 +165,7 @@ const slides = ref([
     id: '2',
     title: 'Web',
     secondtitle: 'Designs',
-    content: 'At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly web designs tailored to customers requirements.',
+    content: 'American Web Craft is a top-rated custom website development company that has been providing customized solutions to businesses.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/AppDevelopment.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -175,7 +174,7 @@ const slides = ref([
   {
     id: '3',
     title: 'Corporate Branding',
-    content: 'At American Web Craft, we design business cards, brand stationery, and branded paper cups to save you from the hassle of multiple vendors - saving time, money, and effort. Re-Brand with us!',
+    content: 'At American Web Craft, we design your corporate brand to improve your marketing performance, growth, engagement and brand awareness.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/CorporateBranding.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -184,7 +183,7 @@ const slides = ref([
   {
     id: '4',
     title: 'SEO',
-    content: 'We offer Search Engine Optimization for brands who want to make their brand visible on the first page of a search engine so that your brand can close more deals and get the customer that is really looking for your products or services. Our SEO services',
+    content: 'SEO is an irreplaceable solution for any business. Why? It will get you clients. You can be an expert lawyer, an ecommerce genius or contractor extraordinaire.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/LogoDesign.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -193,7 +192,7 @@ const slides = ref([
   {
     id: '5',
     title: 'Social Media Marketing',
-    content: 'Businesses of all sizes can use social media marketing to reach out to prospects and consumers.',
+    content: 'Social media marketing for small businesses and entrepreneurs gives you the ability to establish your brand and online presence on platforms where their target audience is already scrolling.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/AppDevelopment.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -202,7 +201,7 @@ const slides = ref([
   {
     id: '6',
     title: 'Lead Generation',
-    content: 'We are pioneers in multichannel lead generation campaigns to provide your business with potential leads - growing your business reach and overall market share.',
+    content: 'We specialize in tailored lead generation, ensuring a steady flow of high-quality leads with improved conversion rates. Our focus is on engagement.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/LogoDesign.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -211,7 +210,7 @@ const slides = ref([
   {
     id: '7',
     title: 'Content Writing',
-    content: 'Feed your online presence with high-quality content. At American Web Craft, we provide 360 content writing solutions, our content writing services are open for marketers, brands, and digital marketing agencies.',
+    content: 'Whatever industry you’re in, you need expert writers who can engage your audience, American Web Craft provide 360 content writing solution.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/CorporateBranding.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',
@@ -220,7 +219,7 @@ const slides = ref([
   {
     id: '8',
     title: 'App Development',
-    content: 'We guarantee excellent service since we have the greatest mobile app development team in the industry. Thanks to our group of app development specialists.',
+    content: '(P)American Web Craft design customized mobile apps that are build, keeping your business requirements in mind.',
     image: import('@/assets/images/Home/servicesImg/carouselimg/AppDevelopment.svg').then((module) => module.default),
     detailBtnContinue: 'continue ...',
     detailBtnMore: 'more Details',

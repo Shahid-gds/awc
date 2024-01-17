@@ -29,9 +29,10 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    Businesses of all sizes can use social media marketing to reach out to prospects and consumers.
-                    People use social media to discover, learn about, follow, and shop from brands, so if you're not on Facebook,
-                    Instagram, Pinterest, or LinkedIn, you're missing out!
+                    (P)Social media marketing for small businesses and entrepreneurs gives you the ability to establish your
+                    brand and online presence on platforms where their target audience is already scrolling. Social media
+                    has taken the world by storm since its original creation. So if you're not on Facebook, Instagram,or
+                    Pinterest, you're missing out!
                 </p>
             </div>
         </div>

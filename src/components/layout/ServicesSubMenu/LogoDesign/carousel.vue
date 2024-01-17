@@ -35,17 +35,16 @@ const slides = ref([
   },
   {
     id: '2',
-    heading: 'marketing'
+    heading: 'development'
   },
   {
     id: '3',
-    heading: 'branding',
+    heading: 'marketing'
   },
   {
     id: '4',
-    heading: 'development'
-  },
-  
+    heading: 'branding',
+  }, 
  
 ])
 const breakpoints = {

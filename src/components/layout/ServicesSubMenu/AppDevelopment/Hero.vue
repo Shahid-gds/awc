@@ -29,8 +29,9 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    We guarantee excellent service since we have the greatest mobile app development team in the industry. Thanks to our group of app
-                    development specialists, Project delivery is always on time, with strict respect to coding standards.
+                    American Web Craft design customized mobile apps that are build, keeping your business requirements in
+                    mind. Moreover, we design highly secure apps as per the nature of company's perspective. These well
+                    designed apps can strength your business.
                 </p>
             </div>
         </div>

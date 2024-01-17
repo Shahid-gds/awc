@@ -17,7 +17,8 @@
                             </h2>
                             <h2
                                 class="others-text text-white 2xl:text-[25px] md:text-[22px] font-bold text-[15px] px-6 uppercase animated-element-right-second">
-                                <span>We call it hard</span> <span class="text-[#9d0208] font-bold">work & dedication</span>
+                                <span>DIGITAL MARKETING</span> <span class="text-[#9d0208] font-bold">PACKAGES AND
+                                    PRICING</span>
                             </h2>
                         </div>
                     </div>
@@ -28,11 +29,10 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[16px] text-[#f0f0f0] sm:py-4 py-1">
                 <p class="2xl:w-[40%] sm:w-[65%] px-6 font-[graphik-semibold] uppercase">
-                    Here’s a collection of some of the brilliant work that we have done over the years. Everything is
-                    unique, and tailor-made according to the client’s needs and wants. So trust in us to give you what you
-                    want.
+                    Our digital marketing packages are geared toward producing results. Choose from standard packages
+                    detailed below, or work with our digital marketing agency to build a custom edition based on your unique
+                    needs and budgets.
                 </p>
             </div>
         </div>
-    </section>
-</template>
+</section></template>

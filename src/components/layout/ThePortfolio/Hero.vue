@@ -18,7 +18,8 @@
                             </h2>
                             <h2
                                 class="others-text text-white 2xl:text-[25px] md:text-[22px] font-bold text-[15px] px-6 uppercase animated-element-right-second">
-                                <span>We call it hard</span> <span class="text-[#9d0208] font-bold">work & dedication</span>
+                                <span>Our Creative Digital</span> <span class="text-[#9d0208] font-bold">Portfolio
+                                    Collection</span>
                             </h2>
                         </div>
                     </div>
@@ -29,9 +30,9 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[16px] text-white sm:py-4 py-1">
                 <p class="2xl:w-[40%] sm:w-[65%] px-6 font-[graphik-regular] uppercase">
-                    Here’s a collection of some of the brilliant work that we have done over the years. Everything is
-                    unique, and tailor-made according to the client’s needs and wants. So trust in us to give you what you
-                    want.
+                    We've had the honor of assisting numerous companies across diverse sectors in achieving their
+                    objectives. Everything is unique, our approach is tailored to each client's needs. So trust in us to
+                    give you what you want.
                 </p>
             </div>
         </div>
@@ -41,5 +42,4 @@
 <script setup>
 
 </script>
-<style scoped>
-</style>
+<style scoped></style>

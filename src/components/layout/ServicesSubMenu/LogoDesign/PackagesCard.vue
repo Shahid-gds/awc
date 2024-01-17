@@ -11,9 +11,9 @@
                 </div>
                 <div class="text-center md:-mt-[5rem] -mt-[2rem] md:leading-10 px-6">
                   <h2 class="others-text text-white md:text-[40px] text-[20px] font-[outline] uppercase animated-element-right-second">
-                    Serving Businesses                  
+                    EXPLORE OUR PACKAGES                  
                 </h2>
-                <p class="md:text-[28px] text-[16px] font-bold uppercase text-white animated-element-right-second">of All Sizes Our services are available for all.</p>
+                <p class="md:text-[28px] text-[16px] font-bold uppercase text-white animated-element-right-second">Get Your Project Started Today.</p>
                 </div>
               </div>
               <div class="flex justify-end">
@@ -23,7 +23,7 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1.5 pb-6">
               <p class="2xl:w-[45%] lg:w-[50%] md:w-[60%] px-6">
-                We deal with large companies effectively and provide equal attention to small and medium-sized businesses and also to start-up businesses.
+                Not everyone has the same needs, so we created flexible features for every budget. American Web Craft delivers great results and unmatched value.
               </p>
             </div>
          <div class="flex justify-center">

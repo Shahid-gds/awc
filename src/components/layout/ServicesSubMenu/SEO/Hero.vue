@@ -29,8 +29,10 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    We offer Search Engine Optimization for brands who want to make their brand visible on the first page of a search engine so that your
-                    brand can close more deals and get the customer that is really looking for your products or services. Our SEO services
+                    SEO is an irreplaceable solution for any business. Why? It will get you clients. You can be an expert
+                    lawyer, an ecommerce genius or contractor extraordinaire, but without SEO prospects will have hard time
+                    finding you. American Web Craft will help you! Our SEO service helps you to stay on top of Google Web
+                    page Ranking.
                 </p>
             </div>
         </div>

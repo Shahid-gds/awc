@@ -24,8 +24,7 @@
         </div>
         <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1.5">
           <p class="2xl:w-[60%] sm:w-[80%] px-6">
-            Here’s a collection of some of the brilliant work that we have done over the years. Everything is unique, and
-            tailor-made according to the client’s needs and wants. So trust in us to give you what you want.
+            We've had the honor of assisting numerous companies across diverse sectors in achieving their objectives. Everything is unique, our approach is tailored to each client's needs. So trust in us to give you what you want.
           </p>
         </div>
         <div class="mt-6">
@@ -36,17 +35,16 @@
             <div class="sm:w-[50%] h-1 mt-3 bg-[#9d0208] animated-element-left"></div>
             <div class="sm:flex sm:w-full items-center sm:space-x-3">
               <div class="sm:w-full px-6 text-[#a9a9a9] sm:text-left text-center pt-3">
-                <p>Everything is unique, and tailor-made according to the client’s needs and wants.
-                  So trust in us to give you what you want.</p>
+                <p>Everything is unique, our approach is tailored to each client's needs. So trust in us to give you what you want.</p>
               </div>
-              <div class="sm:w-full flex justify-center pt-4">
+              <router-link :to="{name: 'Portfolio'}" class="sm:w-full flex justify-center pt-4">
                 <div
                   class="hover-btn bg-gradient-to-r px-10 text-center from-[#9d0208] bg-[#601417] border-r-[#601417] p-2 rounded-lg text-[white] sm:font-bold cursor-pointer hover:bg-gradient-to-l hover:from-[#9d0208] hover:bg-[#601417] hover:border-r-[#601417]">
                   <div class="uppercase">
                     Show All Works
                   </div>
                 </div>
-              </div>
+              </router-link>
             </div>
           </div>
         </div>

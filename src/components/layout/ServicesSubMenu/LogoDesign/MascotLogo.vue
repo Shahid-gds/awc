@@ -36,12 +36,12 @@
                     <!--==================================== Left Heading and Paragraph Start ========================== -->
                     <div class="md:px-6 2xl:ml-[2.5rem] md:ml-[2.2rem]">
                         <h1 class="2xl:text-[28px] sm:text-[25px] text-[20px] text-[#f5f5f5] sm:text-left text-center">
-                            Create an everlasting impression with a Mascot Logo Design</h1>
-                        <p class="text-[#cccccc] sm:text-[18px]">A mascot logo design is a tricky yet exhilarating form of
-                            logo design. Creating a visual identity of your brand in your targetted audience's minds, it’s a
-                            job that needs to be done well. Our team of expert mascot designers creates an outstanding
-                            mascot logo design tailored for your company. We offer high-quality logo designs that are both
-                            suitable for digital and print media..</p>
+                            Create Memorable Mascot Logos For Strong Branding</h1>
+                        <p class="text-[#cccccc] sm:text-[18px]">The job that incorporates a character or an illustrated
+                            symbol as the central element is a tricky form of logo design. A mascot logo is designed to
+                            represent the brand and connect with the audience on a more personal and memorable level. At
+                            American Web Craft, our expert designers are both professional and creative, delivering the
+                            best-customized Mascot Logo for your company. Contact us for a unique Mascot logo!</p>
                     </div>
                     <!--==================================== Left heading and paragraph End ================================ -->
                     <!-- =================================== Bullit Points Area Start ====================================== -->
@@ -49,13 +49,13 @@
                         <ul
                             class="list-outside list-disc sm:text-[22px] text-[#f5f5f5] 2xl:leading-[3rem] leading-[2.5rem]">
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">Qualified Logo Designers</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">More Creativity</span>
                             </li>
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">100% Custom Mascot Characters</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">Tailor Made Mascot Logo</span>
                             </li>
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">Custom Friendly Logo Design</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">Save Money & Time</span>
                             </li>
                         </ul>
                     </div>
@@ -99,19 +99,19 @@
                 </div>
             </div>
         </div>
-      
+
     </section>
 </template>
 <script setup>
 const scrollToPackages = () => {
-  const packagesSection = document.getElementById('packages');
+    const packagesSection = document.getElementById('packages');
 
-  if (packagesSection) {
-    packagesSection.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  }
+    if (packagesSection) {
+        packagesSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        });
+    }
 };
 </script>
 <style scoped>
@@ -125,5 +125,4 @@ const scrollToPackages = () => {
 
 .section-img-bg {
     transform: rotate(338deg);
-}
-</style>
+}</style>

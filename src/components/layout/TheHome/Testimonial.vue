@@ -24,7 +24,7 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-4 py-1.5 pb-6">
               <p class="md:w-[60%]">
-                See What Our Customer Have To Say About Our Remarkable Design Services
+                The reviews our clients give us mean the world to us and they power our team.
               </p>
             </div>
             <div>
@@ -33,8 +33,7 @@
             <div class="md:flex sm:space-x-4 justify-start sm:w-1/2 sm:-mt-10 mt-8">
               <div class="w-full h-1 mt-3 bg-[#9d0208] animated-element-left"></div>
               <div class="w-full text-[#a9a9a9] text-left px-6">
-                <p>Website development to corporate branding
-                  we offer you a one window solution.</p>
+                <p>Website development to corporate branding. The digital agency that feels like an in-house partner.</p>
               </div>
             </div>
           </div>

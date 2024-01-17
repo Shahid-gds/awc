@@ -24,21 +24,21 @@
           class="sm:block hidden -mt-[1%]  uppercase third-text animated-element-right-second">
           <span class="text-[#9d0208] 2xl:text-[40px] font-bold xl:text-[30px] sm:text-[25px] animated-element-growth">Growth </span>
           <span class="text-white 2xl:text-[40px] xl:text-[30px] font-bold sm:text-[25px] animated-element-partner">Partners</span>
-          <p class="text-white sm:text-[14px] text-[10px] pb-4">You can bank on our reliability and scalability.</p>
+          <p class="text-white sm:text-[14px] text-[10px] pb-4">BET ON OUR RELIABILITY AND FUTURE-PROOF SCALABILITY.</p>
         </div>
         <div
           class="sm:hidden -mt-[1%]  uppercase third-text animated-element-right-second leading-6 pt-1">
           <span class="text-[#9d0208] 2xl:text-[40px] font-bold xl:text-[30px] sm:text-[25px] animated-element-growth">Growth </span>
           <span class="text-white 2xl:text-[40px] xl:text-[30px] font-bold sm:text-[25px] animated-element-partner">Partners</span>
-          <p class="text-white sm:text-[14px] text-[10px] pb-4">You can bank on our reliability and scalability.</p>
+          <p class="text-white sm:text-[14px] text-[10px] pb-4">BET ON OUR RELIABILITY AND FUTURE-PROOF SCALABILITY.</p>
         </div>
         <div class="flex items-center md:space-x-5 space-x-3 animated-element-buttons">
-          <div>
+          <router-link :to="{name: 'Portfolio'}">
             <div
               class="hover-btn bg-gradient-to-r lg:text-lg text-[14px] from-[#9d0208] bg-[#601417]  rounded-lg p-3 uppercase cursor-pointer text-white md:px-10 sm:font-bold hover:bg-gradient-to-l hover:from-[#9d0208] hover:bg-[#601417]">
-              Our Services
+              Our Portfolio
             </div>
-          </div>
+          </router-link>
           <div>
            <div>
             <div

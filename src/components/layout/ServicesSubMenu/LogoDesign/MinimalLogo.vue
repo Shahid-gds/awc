@@ -37,26 +37,21 @@
                     <!--****** end *****-->
                     <!--==================================== Left Heading and Paragraph Start ========================== -->
                     <div class="md:px-6 2xl:ml-[4rem] 2xl:w-[60%]">
-                        <h1 class="2xl:text-[28px] sm:text-[25px] text-[20px] sm:text-left text-center text-[#f5f5f5]">Clean, Geometric, and minimal
-                            Logo Design</h1>
-                        <p class="text-[#cccccc] sm:text-[18px]">Logo Design trends are updating every year and this year it
-                            belongs to the Minimal Logo designs. From multinational brands to emerging startups; everyone is
-                            leaning towards a minimal logo. At American Web Craft, our logo designers have a mantra of “less
-                            is more”. We create eye catchy and memorable minimal logo designs to make an impact on your
-                            target audience.</p>
+                        <h1 class="2xl:text-[28px] sm:text-[25px] text-[20px] sm:text-left text-center text-[#f5f5f5]">Modest, Essential And Minimal Logo Design!</h1>
+                        <p class="text-[#cccccc] sm:text-[18px]">A minimal logo is a simple and clean design that enhances brand memorability, versatility, professionalism, adaptability to trends, and clarity of message for a business. From multinational brands to emerging startups, the majority favors a modest, essential, and minimal logo. At American Web Crafts, our logo designers create the perfect design every time. Let's create a memorable logo together.</p>
                     </div>
                     <!--==================================== Left heading and paragraph End ================================ -->
                     <!-- =================================== Bullit Points Area Start ====================================== -->
                     <div class="2xl:ml-[7.5rem] xl:ml-[4rem] ml-[1.5rem] 2xl:py-4 py-2">
                         <ul class="list-outside list-disc sm:text-[22px] text-[#f5f5f5] 2xl:leading-[3rem] leading-[2.5rem]">
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">Uncompromising Quality</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">High Resolution Logo</span>
                             </li>
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">Market Competitive prices</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">nlimited Revisions</span>
                             </li>
                             <li class="text-[#bd0a11]">
-                                <span class="text-[#f5f5f5] sm:text-[20px]">High-Quality Logos</span>
+                                <span class="text-[#f5f5f5] sm:text-[20px]">Customized Logo Design</span>
                             </li>
                         </ul>
                     </div>

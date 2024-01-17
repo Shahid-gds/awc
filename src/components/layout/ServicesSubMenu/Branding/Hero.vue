@@ -29,8 +29,10 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    At American Web Craft, we design business cards, brand stationery, and branded paper cups to save you from the hassle of multiple
-                    vendors - saving time, money, and effort. Re-Brand with us!
+                    At American Web Craft, we design your corporate brand to improve your marketing performance, growth,
+                    engagement and brand awareness. A well-developed and strong brand identity is a valuable asset that
+                    contributes to recognition, trust, differentiation, loyalty, effective communication, and overall
+                    business success.
                 </p>
             </div>
         </div>

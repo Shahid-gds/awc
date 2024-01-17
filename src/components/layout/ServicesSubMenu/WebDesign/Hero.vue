@@ -29,9 +29,10 @@
             </div>
             <div class="text-center flex justify-center w-full sm:text-[18px] text-white sm:py-3 py-1">
                 <p class="2xl:w-[50%] sm:w-[80%] px-6">
-                    At American Web Craft, we have an experienced and highly dedicated network of website designers that generate user-friendly
-web designs tailored to customers' requirements. Through responsive web designs, we help businesses experience
-a bug-free website to ensure a maximum conversion rate throughout.
+                    American Web Craft is a top-rated custom website development company that has been providing customized
+                    solutions to businesses. Our highly experienced website designer and developer generate responsive, user
+                    friendly and quality websites to customers' requirement. American Web Craft is committed to providing
+                    website development services using industry-leading technologies.
                 </p>
             </div>
         </div>
