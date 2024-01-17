@@ -18,11 +18,11 @@
    const isLoading = ref(true);
    
    const sections = [
-     { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/Hero.vue')) },
-     { name: 'Card', class: 'Card', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/Info.vue')) },
-     { name: 'ContactBg', class: 'ContactBg', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/ContactForm.vue')) },
-     { name: 'Process', class: 'Process', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Process.vue')) },
-     { name: 'TestimonialBg', class: 'TestimonialBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue')) },
+     { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/Hero.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Card', class: 'Card', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/Info.vue').then(m => m.default), { lazy: true }) },
+     { name: 'ContactBg', class: 'ContactBg', component: defineAsyncComponent(() => import('@/components/layout/TheContactUs/ContactForm.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Process', class: 'Process', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Process.vue').then(m => m.default), { lazy: true }) },
+     { name: 'TestimonialBg', class: 'TestimonialBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue').then(m => m.default), { lazy: true }) },
    ];
    setTimeout(() => {
      isLoading.value = false;

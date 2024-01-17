@@ -18,9 +18,9 @@
    const isLoading = ref(true);
    
    const sections = [
-     { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheRefund/Hero.vue')) },
-     { name: 'GeneralBg', class: 'GeneralBg', component: defineAsyncComponent(() => import('@/components/layout/TheRefund/Conditions.vue')) },
-     { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue')) },
+     { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheRefund/Hero.vue').then(m => m.default), { lazy: true }) },
+     { name: 'GeneralBg', class: 'GeneralBg', component: defineAsyncComponent(() => import('@/components/layout/TheRefund/Conditions.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue').then(m => m.default), { lazy: true }) },
    ];
    setTimeout(() => {
      isLoading.value = false;

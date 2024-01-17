@@ -18,13 +18,13 @@ import { ref, defineAsyncComponent } from 'vue';
 const isLoading = ref(true);
 
 const sections = [
-  { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Hero.vue')) },
-  { name: 'ServicesBg', class: 'ServicesBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Services.vue')) },
-  { name: 'OurWorkBg', class: 'OurWorkBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/OurWork.vue')) },
-  { name: 'ProcessBg', class: 'ProcessBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Process.vue')) },
-  { name: 'TestimonialBg', class: 'TestimonialBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue')) },
-  { name: 'WhoWeAreBg', class: 'WhoWeAreBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/WhoWeAre.vue')) },
-  { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue')) },
+  { name: 'HeroBg', class: 'HeroBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Hero.vue').then(m => m.default), { lazy: true }) },
+  { name: 'ServicesBg', class: 'ServicesBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Services.vue').then(m => m.default), { lazy: true }) },
+  { name: 'OurWorkBg', class: 'OurWorkBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/OurWork.vue').then(m => m.default), { lazy: true }) },
+  { name: 'ProcessBg', class: 'ProcessBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Process.vue').then(m => m.default), { lazy: true }) },
+  { name: 'TestimonialBg', class: 'TestimonialBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue').then(m => m.default), { lazy: true }) },
+  { name: 'WhoWeAreBg', class: 'WhoWeAreBg', component: defineAsyncComponent(() => import('@/components/layout/TheHome/WhoWeAre.vue').then(m => m.default), { lazy: true }) },
+  { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue').then(m => m.default), { lazy: true }) },
 ];
 setTimeout(() => {
   isLoading.value = false;

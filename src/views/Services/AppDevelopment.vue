@@ -18,15 +18,15 @@
    const isLoading = ref(true);
    
    const sections = [
-     { name: 'Hero', class: 'Hero', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/Hero.vue')) },
-     { name: 'Basic', class: 'Basic', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/JavaScript.vue')) },
-     { name: 'Minimal', class: 'Minimal', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/Flutter.vue')) },
-     { name: 'Mascot', class: 'Mascot', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/ReactNative.vue')) },
-     { name: 'Carousel', class: 'Carousel', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/LogoDesign/carousel.vue')) },
-     { name: 'Process', class: 'Process', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/LogoDesign/Process.vue')) },
-     { name: 'Packages', class: 'Packages', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/PackagesCard.vue')) },
-     { name: 'Testimonial', class: 'Testimonial', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue')) },
-     { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue')) },
+     { name: 'Hero', class: 'Hero', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/Hero.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Basic', class: 'Basic', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/JavaScript.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Minimal', class: 'Minimal', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/Flutter.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Mascot', class: 'Mascot', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/ReactNative.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Carousel', class: 'Carousel', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/LogoDesign/carousel.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Process', class: 'Process', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/LogoDesign/Process.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Packages', class: 'Packages', component: defineAsyncComponent(() => import('@/components/layout/ServicesSubMenu/AppDevelopment/PackagesCard.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Testimonial', class: 'Testimonial', component: defineAsyncComponent(() => import('@/components/layout/TheHome/Testimonial.vue').then(m => m.default), { lazy: true }) },
+     { name: 'Contact', class: 'Contact', component: defineAsyncComponent(() => import('@/components/layout/TheHome/ContactUs.vue').then(m => m.default), { lazy: true }) },
    ];
    setTimeout(() => {
      isLoading.value = false;
